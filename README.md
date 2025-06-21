@@ -3,7 +3,7 @@
 A simple Ping Pong (or any 2-player game) score keeper built using **HTML**, **CSS (Bulma)**, and **JavaScript**.  
 Allows users to set a winning score, track player points, and reset the game with a clean UI.
 
-![screenshot](./screenshot.png)
+![Main Screenshot](./screenshot.png)
 
 ---
 
@@ -34,15 +34,9 @@ Score-Keeper/
 ├── index.html          # Main HTML page
 ├── style.css           # Custom CSS (optional)
 ├── app.js              # JavaScript logic
+├── screenshot.png      # Main screenshot
+├── screenshot2.png     # Additional screenshot
 └── README.md           # Project info
-✨ Screenshot
-
-Add a screenshot named screenshot.png in the repo root to display it here.
-
-📌 Notes
-This project does not include a license, meaning it is proprietary by default.
-
-You are free to explore, use, or fork it for learning purposes.
 
 🙌 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
