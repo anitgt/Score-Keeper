@@ -5,10 +5,13 @@ const p2Display = document.querySelector('#p2Display');
 
 let p1Score = 0;
 let p2Score = 0;
+let WinningScore = 5;
 
 p1Button.addEventListener('click', () => {
-    p1Score += 1;
-    p1Display.innerText = p1Score;
+    if(p1Score !== WinningScore) {
+         p1Score += 1;
+        p1Display.innerText = p1Score;
+    } 
 })
 
 p2Button.addEventListener('click', () => {
