@@ -15,6 +15,8 @@ p1Button.addEventListener('click', () => {
 })
 
 p2Button.addEventListener('click', () => {
-    p2Score += 1;
-    p2Display.innerText = p2Score;
+     if(p2Score !== WinningScore) {
+         p2Score += 1;
+        p2Display.innerText = p2Score;
+    }
 })
